@@ -1,0 +1,192 @@
+*{
+    font-family: 'Abel', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-size: 100%;
+}
+
+
+.allt{
+
+    background: url(sak.png);
+    background-size: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column ;
+  
+ 
+    
+}
+.Rubrik{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(sak.jpg);
+    border-bottom: 2px solid;   
+    background-size: 100%;  
+   
+    
+}
+
+.blur {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(1000px);
+    width: 100%;
+    height: 100%;
+}
+ 
+
+.hej{
+   
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Abel', sans-serif;
+    
+}
+
+.hej1{
+    
+    color: goldenrod;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Abel', sans-serif;
+}
+
+.hej2{
+    font-family: 'Abel', sans-serif;
+    color: burlywood;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hej3{
+    font-family: 'Abel', sans-serif;
+    color:burlywood;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+.row
+{
+    justify-content: center;
+    align-items: center;
+   
+    display: flex;
+    flex-direction: row;
+}
+.under{
+   display: flex;
+   color: white;
+   align-items: center;
+  justify-content: center;
+  
+}
+.knas{
+  display: flex;
+  width: 50%;
+  
+  padding: 1%;
+ 
+  font-style: italic;
+  margin: 3%;
+}
+
+
+
+.card1{
+    width: 200px; 
+    height: 200px;
+    display:flex;
+    border-radius: 30px;
+    padding: 25px 35px;
+    margin: 20px 35px;
+    background-image: url('tree.jpg');
+    background-position: center;
+    background-size: cover;
+    color: goldenrod;
+    justify-content: center;
+    align-items: center;
+
+
+}  
+.card2{
+    width: 200px; 
+    height: 200px;
+    display:flex;
+    border-radius: 30px;
+    padding: 25px 35px;
+    margin: 20px 35px;
+    background-image: url('traditions.png');
+    background-position: center;
+    background-size: cover;
+    color: goldenrod;
+    justify-content: center;
+    align-items: center;
+
+
+}  
+.card3{
+    width: 200px; 
+    height: 200px;
+    display:flex;
+    border-radius: 30px;
+    padding: 25px 35px;
+    margin: 20px 35px;
+    background-image: url('majorbagalert.png');
+    background-position: center;
+    background-size: cover;
+    color: goldenrod;
+    justify-content: center;
+    align-items: center;
+    
+
+}  
+
+
+.sakimus {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+  }
+
+
+
+
+  .bl {
+    display: block;
+    background-image: url("path/to/your/image.jpg");
+    background-size: cover;
+    width: 500px; 
+    height: 300px;
+    text-decoration: none; 
+  }
+  
+
+  .bl2 {
+    display: block;
+    background-image: url("path/to/your/image.jpg");
+    background-size: cover;
+    width: 500px; 
+    height: 300px;
+    text-decoration: none; 
+  }
+  

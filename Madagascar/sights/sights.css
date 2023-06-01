@@ -1,0 +1,114 @@
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #333;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+  }
+  
+  nav ul li {
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #555;
+    transition: background-color 0.3s;
+  }
+  
+  nav ul li a:hover {
+    background-color: #777;
+  }
+  
+  main {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .text {
+    width: 60%;
+    margin-right: 20px;
+  }
+  
+  .text h3 {
+    margin-bottom: 10px;
+  }
+  
+  .text p:not(:last-child) {
+    margin-bottom: 15px;
+  }
+  
+  .image {
+    width: 30%;
+    text-align: right;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  footer {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  #traditions .text h3 {
+    margin-bottom: 15px;
+  }
+  
+  #traditions .text p {
+    margin-bottom: 10px;
+  }
+  
+  #culture .text h3 {
+    margin-bottom: 15px;
+  }
+  
+  #culture .text p {
+    margin-bottom: 10px;
+  }
+  
+  #sights .text h3 {
+    margin-bottom: 15px;
+  }
+  
+  #sights .text p {
+    margin-bottom: 10px;
+  }
+  
+
